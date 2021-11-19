@@ -266,7 +266,6 @@ hr {
   background-color: #ffffff;
 }
 
-/* Pagina Sobre Nosotros */
 /* Valores */
 .caja-informacion {
   margin-top: 2rem;
@@ -402,7 +401,7 @@ label {
   font-size: 1.1rem;
 }
 
-/* Prductos */
+/* Catalogo */
 .productos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -445,6 +444,32 @@ label {
 .sub-prod__video {
   width: 800px;
   height: 400px;
+}
+
+/* Terminos y Condiciones */
+.caja-terminos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titulo-terminos {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.contenido {
+  width: 80%;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
 }
 
 /* Responsive */

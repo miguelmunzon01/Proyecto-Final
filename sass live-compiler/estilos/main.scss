@@ -211,8 +211,6 @@ hr{
 	background-color: #ffffff;
 }
 
-/* Pagina Sobre Nosotros */
-
 /* Valores */
 
 .caja-informacion{
@@ -307,6 +305,7 @@ hr{
 label{
     font-family: 'Lato', sans-serif;   
 }
+
 /* Ubicacion */
 
 .caja-ubicacion{
@@ -325,7 +324,7 @@ label{
     font-size: 1.1rem;
 }
 
-/* Prductos */ 
+/* Catalogo */ 
 
 .productos{
     display: flex;
@@ -357,6 +356,24 @@ label{
         width: 800px;
         height: 400px;
     }
+}
+
+/* Terminos y Condiciones */
+
+.caja-terminos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-terminos{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-family: 'Lato', sans-serif; 
+}
+.contenido{
+    width: 80%;
+    text-align: left;
+    font-family: 'Lato', sans-serif; 
 }
 
 /* Responsive */
